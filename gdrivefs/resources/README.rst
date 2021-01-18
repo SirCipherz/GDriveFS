@@ -7,7 +7,7 @@ GDriveFS is an innovative *FUSE* wrapper for *Google Drive*. It is Python 2/3 co
 Latest Changes
 --------------
 
-- Though you can still use the previous authorization flow, there is now a very simple authorization flow that may be used instead by using the 'auth_automatic' subcommand on the 'gdfstool'. Whe you run this command, the browser will automatically be opened, you may or may not be prompted for authorization by Google, a redirection will occur, and we will then automatically record the authorization code. GDFS will temporarily open a small webserver on a random port in order to receive the response. **This effectively makes authorization a one-step process for the user.** See below for more details.
+- Though you can still use the previous authorization flow, there is now a very simple authorization flow that may be used instead by using the 'auth_automatic' subcommand on the 'gdfstool'. When you run this command, the browser will automatically be opened, you may or may not be prompted for authorization by Google, a redirection will occur, and we will then automatically record the authorization code. GDFS will temporarily open a small webserver on a random port in order to receive the response. **This effectively makes authorization a one-step process for the user.** See below for more details.
 
 - There is now a default file-path for the credentials ("auth storage file"). Just use "default" and "$HOME/.gdfs/creds" will be the file-path used. See below for more details.
 
